@@ -1,0 +1,98 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout>
+    <section id="intro" class="gradient-background">
+        <div class="container d-flex flex-column align-items-center justify-content-center pt-5">
+            <h1 id="name" class="has-dark px-5 pt-5">I'm Qianrui Liu</h1>
+            <h2 id="occup" class="has-dark content py-4">a programmer</h2>
+            <!-- </div> -->
+            <div id="summary" class="container row pb-3 pt-3">
+                <h2 id="summary-title" class="pb-2 pt-1">Summary</h2>
+                <p class="content has-dark" id="summary-content">
+                    I'm a 4th-year university student major in <span class="bold-text">Data Science</span> who has a
+                    well-rounded experience in <span class="bold-text">
+                        Deep
+                        Learning
+                    </span>,
+                    <span class="bold-text">
+                        Web
+                        Development
+                    </span> and so on.
+                </p>
+            </div>
+        </div>
+    </section>
+    <section id="edu">
+        <div class="container py-5">
+            <h2 id="edu-h2">Education</h2>
+            <div class="container">
+                <div class="row">
+                    <img src="/assets/images/武汉纺织大学-logo.svg" alt="university logo" id="wtu-img"
+                        class="col-2 col-lg-1 img-fluid pt-2">
+
+                    <p id="edu-p" class="has-dark content pt-3 px-2 col-12 col-md-6 col-lg-6">Senior at Wuhan Textile
+                        University
+                        <span>Academic Average: 89.6/100 (Top 5% in major)</span>
+                    </p>
+                    <p class="has-dark content pt-3 col-12 col-md-3 col-lg-4" id="edu-year">2022-2026</p>
+                </div>
+            </div>
+            <hr>
+            <h2 id="project-exp-h2">Project Experience</h2>
+            <div id="project-list" class="container py-3">
+                <div class="row g-4">
+                    <div class="col-lg-6">
+                        <p id="project1-title" class="project-title">
+                            Medical Image Segmentation Network Development
+                        </p>
+                        <p id="project1-date">June 2023 - July 2024</p>
+                        <ul id="project1-desc">
+                        </ul>
+                        <div class="imgModal">
+                            <img class="proj-img" src="/assets/images/proj1.png" alt="project 1">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <p id="project2-title" class="project-title">Multi-Omics Cell Mapping and Visualization</p>
+                        <p id="project2-date">July 2024 - April 2025</p>
+                        <ul id="project2-desc">
+                        </ul>
+                        <div class="imgModal">
+                            <img class="proj-img" src="/assets/images/proj2.png" alt="project 2">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container py-5">
+            <h2 id="skills-h2" class="mb-3">Skills</h2>
+            <ul id="skills-list" class="skill-list">
+            </ul>
+            <hr>
+            <h2 id="awards-h2" class="mb-3">Pub, Awards and Certifications</h2>
+            <ul id="awards-list" class="award-list">
+            </ul>
+        </div>
+    </section>
+    <section id="other" class="pt-5 pb-3">
+        <div class="container pt-3">
+            <h2 id="about-me-h2">About Me</h2>
+            <h2 id="hobbies-h2">My Hobbies</h2>
+            <div class="container row gap-3 my-5 d-flex justify-content-center" id="my-hobbies">
+            </div>
+            <hr>
+            <div class="container d-flex flex-column justify-content-center align-items-center gap-4 py-5">
+                <h3 id="hello">Nice to Meet You</h3>
+                <img src="/assets/images/1x1正装.jpg" alt="my photo" id="my-photo">
+                <a href="/Contact.html" class="btn btn-primary">
+                    <p id="contact">Contact Me</p>
+                </a>
+            </div>
+            <!-- </ul> -->
+        </div>
+
+    </section>
+</Layout>

@@ -1,0 +1,178 @@
+{
+  "en": {
+    "title": "My Resume",
+    "name-logo": "Qianrui Liu",
+    "nav-intro": "Home",
+    "nav-edu": "Education",
+    "nav-projects": "Projects",
+    "nav-skills": "Skills & Awards",
+    "nav-contact": "Contact",
+    "name": "I'm Qianrui Liu",
+    "occup": "a programmer",
+    "summary-title": "Summary",
+    "summary-content": "👋 I'm a 4th-year university student majoring in <span class=\"bold-text\">Data Science</span>. I have some experience in <span class=\"bold-text\">Deep Learning</span>, <span class=\"bold-text\">Web Development</span>, <span class=\"bold-text\">Data Analysis</span>, and related fields🚀, but I am still learning and growing. Any advice or guidance is greatly appreciated!😊",
+    "edu-h2": "Education",
+    "edu-p": "Senior at Wuhan Textile University <span id=\"edu-gpa\" class=\"has-dark\">GPA: 89.6/100 (Top 5% in major)</span>",
+    "edu-year": "2022-2026",
+    "project-exp-h2": "Project Experience",
+    "project1-title": "Medical Image Segmentation Network Development",
+    "project1-date": "June 2023 - July 2024",
+    "project1-desc": [
+      "Reproduced baseline and completed code implementation for the proposed idea (PyTorch, NumPy, Matplotlib, TensorBoardX).",
+      "Refined innovative ideas through rigorous experimentation and optimization with a peer.",
+      "Drafted parts of paper, published in IEEE Journal of Biomedical and Health Informatics (JBHI).",
+      "Open-source code published on GitHub: <a href=\"https://github.com/Biowust/SWMA-UNet\">https://github.com/Biowust/SWMA-UNet</a>"
+    ],
+    "project2-title": "Multi-Omics Cell Mapping and Visualization",
+    "project2-date": "July 2024 - April 2025",
+    "project2-desc": [
+      "Developed and optimized code (PyTorch, Pandas, R) for a US-led multi-omics project.",
+      "Ensured project continuity by facilitating knowledge transfer and participating in weekly meetings.",
+      "Completed the majority of practical implementation for the project."
+    ],
+    "skills-h2": "Skills",
+    "skills-list": [
+      "🌍 Chinese (Native️), 🌍 Japanese, 🌍 English",
+      "👾 Python, 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
+      "🛠️ Deep learning, 🛠️ Web Development, 🛠️ Database Management, 🛠️ Distributed Computing, 🛠️ Data Analysis"
+    ],
+    "awards-h2": "Pub, Awards and Certifications",
+    "awards-list": [
+      "🎯 IELTS (Academic) 6.5 (L7.5 R7 W6 S6) <span class=\"date\">2025.06</span>",
+      "🎯 Japanese JLPT N1 148 <span class=\"date\">2024.07</span>",
+      "🎯 English CET-6 596 <span class=\"date\">2024.06</span>",
+      "🎯 TOEIC L&R 865 <span class=\"date\">2024.10</span>",
+      "<a href=\"https://ieeexplore.ieee.org/abstract/document/10817525\">📝 \"SWMA-UNet: Multi-Path Attention Network for Improved Medical Image Segmentation\", in IEEE JBHI</a> <span class=\"date\">2024.12</span>",
+      "🎓 Second-class Scholarship (5%) <span class=\"date\">2024.10</span>",
+      "🏆 Team Third Prize in Programming Ladder Competition <span class=\"date\">2023.11</span>",
+      "🎓 First-class Scholarship (1%) <span class=\"date\">2023.10</span>",
+      "🏆 Second Prize in University Student Algorithm Competition <span class=\"date\">2023.09</span>",
+      "🏆 Bronze Award in Hubei Provincial CCPC <span class=\"date\">2023.05</span>"
+    ],
+    "about-me-h2": "About Me",
+    "hobbies-h2": "My Hobbies",
+    "hobbies": ["Anime/2.5D Project", "Travel", "Language Learning", "coding"],
+    "hello": "Nice to Meet You",
+    "contact": "Contact Me",
+    "footer-text": "© 2025 Qianrui Liu"
+  },
+  "zh": {
+    "title": "简历",
+    "name-logo": "刘芊蕊",
+    "nav-intro": "首页",
+    "nav-edu": "教育背景",
+    "nav-projects": "项目经历",
+    "nav-skills": "技能与奖项",
+    "nav-contact": "联系方式",
+    "name": "我是刘芊蕊",
+    "occup": "一名程序员",
+    "summary-title": "简介",
+    "summary-content": "👋 我是一名<span class=\"bold-text\">数据科学</span>专业的大四学生，在<span class=\"bold-text\">深度学习</span>、<span class=\"bold-text\">Web开发</span>、<span class=\"bold-text\">数据分析</span>等领域有一些经验🚀，但仍在不断学习和成长，请多多指教！😊",
+    "edu-h2": "教育背景",
+    "edu-p": "武汉纺织大学 在读 <span id=\"edu-gpa\" class=\"has-dark\">GPA：89.6/100（专业前5%）</span>",
+    "edu-year": "2022-2026",
+    "project-exp-h2": "项目经历",
+    "project1-title": "医学图像分割网络开发",
+    "project1-date": "2023年6月 - 2024年7月",
+    "project1-desc": [
+      "复现基线并完成创新点的代码实现（PyTorch, NumPy, Matplotlib, TensorBoardX）。",
+      "与一名同伴通过严格的实验和优化，完善了创新思路。",
+      "撰写部分论文，三作发表于IEEE Journal of Biomedical and Health Informatics (JBHI)。",
+      "开源代码已发布在GitHub：<a href=\"https://github.com/Biowust/SWMA-UNet\">https://github.com/Biowust/SWMA-UNet</a>"
+    ],
+    "project2-title": "多组学细胞映射与可视化",
+    "project2-date": "2024年7月 - 2025年4月",
+    "project2-desc": [
+      "为美国老师主导的多组学项目中负责开发和优化代码（PyTorch, Pandas, R）。",
+      "通过知识转移和参加每周会议，确保了项目的连续性。",
+      "完成了项目大部分的代码实现工作。"
+    ],
+    "skills-h2": "技能",
+    "skills-list": [
+      "🌍 中文 (母语), 🌍 日语, 🌍 英语",
+      "👾 Python, 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
+      "🛠️ 深度学习, 🛠️ Web开发, 🛠️ 数据库管理, 🛠️ 分布式计算, 🛠️ 数据分析"
+    ],
+    "awards-h2": "发表、奖项与证书",
+    "awards-list": [
+      "🎯 雅思（学术类）6.5 (听7.5 读7 写6 说6) <span class=\"date\">2025.06</span>",
+      "🎯 日语JLPT N1 148 <span class=\"date\">2024.07</span>",
+      "🎯 英语六级 596 <span class=\"date\">2024.06</span>",
+      "🎯 托业L&R 865 <span class=\"date\">2024.10</span>",
+      "<a href=\"https://ieeexplore.ieee.org/abstract/document/10817525\">📝 《SWMA-UNet: 用于改进医学图像分割的多路径注意力网络》，发表于IEEE JBHI</a><span class=\"date\">2024.12</span>",
+      "🎓 二等奖学金 (5%) <span class=\"date\">2024.10</span>",
+      "🏆 团体程序设计天梯赛三等奖 <span class=\"date\">2023.11</span>",
+      "🎓 一等奖学金 (1%) <span class=\"date\">2023.10</span>",
+      "🏆 大学生算法竞赛二等奖 <span class=\"date\">2023.09</span>",
+      "🏆 湖北省CCPC铜奖 <span class=\"date\">2023.05</span>"
+    ],
+    "about-me-h2": "关于我",
+    "hobbies-h2": "爱好",
+    "hobbies": ["动漫/2.5次元企划", "旅行", "语言学习", "编程"],
+    "hello": "很高兴认识你",
+    "contact": "联系我",
+    "footer-text": "© 2025 刘芊蕊"
+  },
+  "jp": {
+    "title": "履歴書",
+    "name-logo": "Liu Qianrui",
+    "nav-intro": "ホーム",
+    "nav-edu": "学歴",
+    "nav-projects": "プロジェクト",
+    "nav-skills": "スキルと受賞",
+    "nav-contact": "連絡先",
+    "name": "Liu Qianrui（リュー　チェンルイ）です",
+    "occup": "プログラマー",
+    "summary-title": "概要",
+    "summary-content": "👋 <span class=\"bold-text\">データサイエンス</span>を専攻する大学4年生です。🚀<span class=\"bold-text\">ディープラーニング</span>や<span class=\"bold-text\">ウェブ開発</span>、<span class=\"bold-text\">データ分析</span>などの分野に少し経験がありますが、まだ未熟で日々勉強中です。ご指導いただけますと幸いです！😊",
+    "edu-h2": "学歴",
+    "edu-p": "武漢紡織大学 在籍 <span id=\"edu-gpa\" class=\"has-dark\">GPA：89.6/100（学科上位5%）</span>",
+    "edu-year": "2022-2026",
+    "project-exp-h2": "プロジェクト経験",
+    "project1-title": "医療画像セグメンテーションネットワークの開発",
+    "project1-date": "2023年6月 - 2024年7月",
+    "project1-desc": [
+      "ベースラインを再現し、アイデアのコード実装を完了（PyTorch、NumPy、Matplotlib、TensorBoardX）。",
+      "仲間との厳密な実験と最適化を通じて革新的なアイデアを洗練。",
+      "論文の一部を執筆し、IEEE Journal of Biomedical and Health Informatics (JBHI) に掲載。",
+      "オープンソースコードはGitHubで公開：<a href=\"https://github.com/Biowust/SWMA-UNet\">https://github.com/Biowust/SWMA-UNet</a>"
+    ],
+    "project2-title": "マルチオミクス細胞マッピングと可視化",
+    "project2-date": "2024年7月 - 2025年4月",
+    "project2-desc": [
+      "アメリカの先生が主導のマルチオミクスプロジェクトのコード（PyTorch、Pandas、R）を開発・最適化。",
+      "知識移転と週次会議への参加を通じてプロジェクトの継続性を確保。",
+      "プロジェクトの実質的な実装の大部分を完了。"
+    ],
+    "skills-h2": "スキル",
+    "skills-list": [
+      "🌍 中国語 (ネイティブ)、🌍 日本語、🌍 英語",
+      "👾 Python, 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
+      "🛠️ ディープラーニング、🛠️ ウェブ開発、🛠️ データベース管理、🛠️ 分散コンピューティング、🛠️ データ分析"
+    ],
+    "awards-h2": "出版、受賞、認定",
+    "awards-list": [
+      "🎯 IELTS（Academic）6.5 (L7.5 R7 W6 S6) <span class=\"date\">2025.06</span>",
+      "🎯 日本語能力試験 N1 148点 <span class=\"date\">2024.07</span>",
+      "🎯 英語CET-6 596点 <span class=\"date\">2024.06</span>",
+      "🎯 TOEIC L&R 865点 <span class=\"date\">2024.10</span>",
+      "<a href=\"https://ieeexplore.ieee.org/abstract/document/10817525\">📝 「SWMA-UNet: 改良された医療画像セグメンテーションのためのマルチパスアテンションネットワーク」、IEEE JBHIにて</a> <span class=\"date\">2024.12</span>",
+      "🎓 二等奨学金 (5%) <span class=\"date\">2024.10</span>",
+      "🏆 プログラミングラダーコンペティション団体三等賞 <span class=\"date\">2023.11</span>",
+      "🎓 一等奨学金 (1%) <span class=\"date\">2023.10</span>",
+      "🏆 大学生アルゴリズムコンペティション二等賞 <span class=\"date\">2023.09</span>",
+      "🏆 湖北省CCPC銅賞 <span class=\"date\">2023.05</span>"
+    ],
+    "about-me-h2": "私について",
+    "hobbies-h2": "趣味",
+    "hobbies": [
+      "アニメ/2.5次元プロジェクト",
+      "旅行",
+      "言語学習",
+      "コーディング"
+    ],
+    "hello": "はじめまして",
+    "contact": "連絡先",
+    "footer-text": "© 2025 Liu Qianrui"
+  }
+}

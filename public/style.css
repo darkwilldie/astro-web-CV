@@ -1,0 +1,228 @@
+body {
+  width: 100%;
+}
+
+ul > li {
+  gap: 10px;
+}
+
+.imgModal.clicked {
+  /* display: none; */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.7);
+  justify-content: center;
+  align-items: center;
+  z-index: 9999;
+}
+
+.imgModal.clicked .proj-img {
+  width: 80vw;
+  height: auto;
+  box-shadow: 0 0 20px #000;
+}
+/* .imgModal .proj-img {
+  max-width: 80vw;
+  max-height: 80vh;
+  box-shadow: 0 0 20px #000;
+} */
+
+img.proj-img {
+  height: 200px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+#name-logo {
+  font-family: "Satisfy", cursive;
+  color: #9dbdff;
+}
+
+#intro {
+  min-height: 500px;
+}
+
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #91c8e4, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+.gradient-background.dark {
+  background: linear-gradient(300deg, #faf0e6, #61679c, #3795bd);
+  background-size: 180% 180%;
+  animation: gradient-animation 18s ease infinite;
+}
+
+#name {
+  /* font-family: "Times New Roman", Times, serif; */
+  /* font-family: "Satisfy", cursive; */
+  font-family: "Bad Script", cursive;
+  color: #4682a9;
+  font-size: 4rem;
+}
+
+#name.dark {
+  color: #d8c9ba;
+}
+
+#edu {
+  background-color: #f9f3ef;
+}
+
+#edu.dark {
+  /* background-color: #547792; */
+  /* background-color: #4a797a; */
+  /* background-color: #468fa0; */
+  background-color: #528ab1;
+}
+
+#skills {
+  background-color: #f0f0f0;
+}
+
+#skills.dark {
+  /* background-color: #2a1458; */
+  background-color: #767cb7;
+}
+
+#other {
+  background-color: #fdfaf6;
+}
+
+#other.dark {
+  background-color: #6377ba;
+}
+
+#occup {
+  font-size: 1.8rem;
+  line-height: 1.6;
+  font-weight: 700;
+  font-style: italic;
+  text-decoration: underline;
+  color: #547792;
+}
+
+#occup.dark {
+  color: #fde2e2;
+}
+
+#summary-title {
+  font-size: 2rem;
+  font-family: "Satisfy", cursive;
+  color: #2a1458;
+}
+
+#summary-content {
+  font-size: 1.3rem;
+  line-height: 1.6;
+  font-weight: 400;
+  /* color: #666; */
+}
+
+#edu-gpa {
+  font-size: 1.1rem;
+  color: #707070;
+  display: block;
+  /* margin-top: 5px; */
+}
+#edu-gpa.dark {
+  color: #d1d1d1;
+}
+
+#edu-year {
+  text-align: right;
+  margin-top: 10px;
+}
+
+#wtu-img {
+  border-radius: 50%;
+  width: 70px;
+  height: 62px;
+  object-fit: contain;
+  margin-top: 10px;
+  padding: 0px;
+  display: block;
+}
+
+#my-photo {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
+
+#about-me-h2 {
+  font-family: "Satisfy", cursive;
+  font-size: 4rem;
+  color: #ef8172;
+  text-align: center;
+}
+
+#hello {
+  font-family: "Playpen Sans Hebrew", cursive;
+  font-size: 2.5rem;
+  color: #b4ebe6;
+  text-align: center;
+}
+
+#contact {
+  font-family: "Lato", sans-serif;
+  margin: 0;
+}
+
+.content {
+  font-size: 1.3rem;
+  font-family: "Lato", sans-serif;
+  color: #5c5c5c;
+}
+
+.content.dark {
+  color: #d1d1d1;
+}
+
+h2 {
+  font-family: "Lato", sans-serif;
+  color: #666;
+}
+
+.my-photo {
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.bold-text {
+  font-weight: bold;
+  color: #2a1458;
+}
+
+.project-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2a1458;
+}
+
+.skill-list,
+.award-list {
+  list-style-type: none;
+}
+
+.skill-list li,
+.award-list li {
+  padding: 5px 0;
+  border-bottom: 1px dashed #9dbdff;
+}
+.award-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.date {
+  margin-left: 1rem;
+  color: #888;
+  font-size: 0.95em;
+}
