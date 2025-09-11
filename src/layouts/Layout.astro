@@ -48,7 +48,9 @@ const { showHeader = true, showFooter = true } = Astro.props;
         </div>
     </nav>
     }
-    <slot />
+    <main>
+        <slot />
+    </main>
     {showFooter &&
     <section id="footer" class="gradient-background">
         <div class="container">
@@ -57,8 +59,10 @@ const { showHeader = true, showFooter = true } = Astro.props;
                         class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
                         <svg class="bi" width="30" height="24" aria-hidden="true">
                             <use xlink:href="#bootstrap"></use>
-                        </svg> a> <span id="footer-text" class="mb-3 mb-md-0 text-body-secondary">© 2025 Qianrui
-                        Liu</span> </div>
+                        </svg> 
+                        <span id="footer-text" class="text-body-secondary">
+                        © 2025 Qianrui Liu
+                        </span> </div>
             </footer>
         </div>
     </section>

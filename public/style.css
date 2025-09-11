@@ -1,5 +1,12 @@
 body {
   width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 ul > li {
@@ -24,11 +31,6 @@ ul > li {
   height: auto;
   box-shadow: 0 0 20px #000;
 }
-/* .imgModal .proj-img {
-  max-width: 80vw;
-  max-height: 80vh;
-  box-shadow: 0 0 20px #000;
-} */
 
 img.proj-img {
   height: 200px;
@@ -182,7 +184,7 @@ img.proj-img {
 }
 
 .content.dark {
-  color: #d1d1d1;
+  color: #dddddd;
 }
 
 h2 {
@@ -193,7 +195,7 @@ h2 {
 }
 
 h2.dark {
-  color: #d3d3d3;
+  color: #dcdcdc;
 }
 
 .my-photo {
@@ -226,6 +228,9 @@ h2.dark {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+#footer {
+  margin-top: auto;
 }
 .date {
   margin-left: 1rem;
