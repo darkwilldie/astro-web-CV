@@ -187,7 +187,13 @@ img.proj-img {
 
 h2 {
   font-family: "Lato", sans-serif;
-  color: #666;
+  color: #4f4f4f;
+  font-weight: bold;
+  margin: 10px 0 20px 0;
+}
+
+h2.dark {
+  color: #d3d3d3;
 }
 
 .my-photo {

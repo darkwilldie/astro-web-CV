@@ -1,0 +1,36 @@
+---
+import Layout from '../layouts/Layout.astro';
+---
+<Layout showHeader={false} showFooter={false}>
+    <style>
+        body {
+            font-family: "Lato", Arial, sans-serif;
+            background: #f9f3ef;
+            color: #333;
+            padding-inline: 30px;
+        }
+
+        h1 {
+            color: #4682a9;
+            font-size: 3rem;
+            font-weight: bold;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            margin-bottom: 20px;
+            margin-top: 20px;
+        }
+
+        .contact-info {
+            font-size: 1.2rem;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px #ccc;
+            padding: 20px;
+            max-width: 400px;
+        }
+    </style>
+    <h1>Contact Me</h1>
+    <div class="contact-info">
+        Tel: +86 180 7117 7024<br>
+        Email: darkwilldie99@gmail.com
+    </div>
+</Layout>

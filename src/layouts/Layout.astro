@@ -1,4 +1,5 @@
 ---
+const { showHeader = true, showFooter = true } = Astro.props;
 ---
 <!DOCTYPE html>
 <html lang="en">
@@ -19,6 +20,7 @@
 </head>
 
 <body>
+    {showHeader &&
     <nav class="navbar navbar-expand-lg navbar-light bg-light px-3 rounded shadow-sm">
         <a id="name-logo" class="navbar-brand fw-bold" href="#">Qianrui Liu</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavbar"
@@ -45,7 +47,9 @@
             </div>
         </div>
     </nav>
+    }
     <slot />
+    {showFooter &&
     <section id="footer" class="gradient-background">
         <div class="container">
             <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 border-top">
@@ -53,11 +57,12 @@
                         class="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1" aria-label="Bootstrap">
                         <svg class="bi" width="30" height="24" aria-hidden="true">
                             <use xlink:href="#bootstrap"></use>
-                        </svg> </a> <span id="footer-text" class="mb-3 mb-md-0 text-body-secondary">© 2025 Qianrui
+                        </svg> a> <span id="footer-text" class="mb-3 mb-md-0 text-body-secondary">© 2025 Qianrui
                         Liu</span> </div>
             </footer>
         </div>
     </section>
+    }
     <script is:inline src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script is:inline src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
