@@ -12,7 +12,7 @@
     "summary-title": "Summary",
     "summary-content": "👋 I'm a 4th-year university student majoring in <span class=\"bold-text\">Data Science</span>. I have some experience in <span class=\"bold-text\">Deep Learning</span>, <span class=\"bold-text\">Web Development</span>, <span class=\"bold-text\">Data Analysis</span>, and related fields🚀, but I am still learning and growing. Any advice or guidance is greatly appreciated!😊",
     "edu-h2": "Education",
-    "edu-p": "Senior at Wuhan Textile University <span id=\"edu-gpa\" class=\"has-dark\">GPA: 89.6/100 (Top 5% in major)</span>",
+    "edu-p": "Senior at Wuhan Textile University <span id=\"edu-gpa\" class=\"has-dark\">GPA: 89.5/100 (Top 5% in major)</span>",
     "edu-year": "2022-2026",
     "project-exp-h2": "Project Experience",
     "project1-title": "Medical Image Segmentation Network Development",
@@ -33,7 +33,7 @@
     "skills-h2": "Skills",
     "skills-list": [
       "🌍 Chinese (Native️), 🌍 Japanese, 🌍 English",
-      "👾 Python, 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
+      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
       "🛠️ Deep learning, 🛠️ Web Development, 🛠️ Database Management, 🛠️ Distributed Computing, 🛠️ Data Analysis"
     ],
     "awards-h2": "Pub, Awards and Certifications",
@@ -69,7 +69,7 @@
     "summary-title": "简介",
     "summary-content": "👋 我是一名<span class=\"bold-text\">数据科学</span>专业的大四学生，在<span class=\"bold-text\">深度学习</span>、<span class=\"bold-text\">Web开发</span>、<span class=\"bold-text\">数据分析</span>等领域有一些经验🚀，但仍在不断学习和成长，请多多指教！😊",
     "edu-h2": "教育背景",
-    "edu-p": "武汉纺织大学 在读 <span id=\"edu-gpa\" class=\"has-dark\">GPA：89.6/100（专业前5%）</span>",
+    "edu-p": "武汉纺织大学 在读 <span id=\"edu-gpa\" class=\"has-dark\">GPA：89.5/100（专业前5%）</span>",
     "edu-year": "2022-2026",
     "project-exp-h2": "项目经历",
     "project1-title": "医学图像分割网络开发",
@@ -90,7 +90,7 @@
     "skills-h2": "技能",
     "skills-list": [
       "🌍 中文 (母语), 🌍 日语, 🌍 英语",
-      "👾 Python, 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
+      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
       "🛠️ 深度学习, 🛠️ Web开发, 🛠️ 数据库管理, 🛠️ 分布式计算, 🛠️ 数据分析"
     ],
     "awards-h2": "发表、奖项与证书",
@@ -126,7 +126,7 @@
     "summary-title": "概要",
     "summary-content": "👋 <span class=\"bold-text\">データサイエンス</span>を専攻する大学4年生です。🚀<span class=\"bold-text\">ディープラーニング</span>や<span class=\"bold-text\">ウェブ開発</span>、<span class=\"bold-text\">データ分析</span>などの分野に少し経験がありますが、まだ未熟で日々勉強中です。ご指導いただけますと幸いです！😊",
     "edu-h2": "学歴",
-    "edu-p": "武漢紡織大学 在籍 <span id=\"edu-gpa\" class=\"has-dark\">GPA：89.6/100（学科上位5%）</span>",
+    "edu-p": "武漢紡織大学 在籍 <span id=\"edu-gpa\" class=\"has-dark\">GPA：89.5/100（学科上位5%）</span>",
     "edu-year": "2022-2026",
     "project-exp-h2": "プロジェクト経験",
     "project1-title": "医療画像セグメンテーションネットワークの開発",
@@ -147,7 +147,7 @@
     "skills-h2": "スキル",
     "skills-list": [
       "🌍 中国語 (ネイティブ)、🌍 日本語、🌍 英語",
-      "👾 Python, 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
+      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
       "🛠️ ディープラーニング、🛠️ ウェブ開発、🛠️ データベース管理、🛠️ 分散コンピューティング、🛠️ データ分析"
     ],
     "awards-h2": "出版、受賞、認定",
