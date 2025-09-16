@@ -50,6 +50,8 @@ function setLang(lang) {
   $("#project1-date").text(t["project1-date"]);
   $("#project2-title").text(t["project2-title"]);
   $("#project2-date").text(t["project2-date"]);
+  $("#project3-title").text(t["project3-title"]);
+  $("#project4-title").text(t["project4-title"]);
   $("#skills-h2").text(t["skills-h2"]);
   $("#awards-h2").text(t["awards-h2"]);
   // $("#about-me-h2").text(t["about-me-h2"]);
@@ -62,6 +64,8 @@ function setLang(lang) {
   const lists = {
     "#project1-desc": t["project1-desc"],
     "#project2-desc": t["project2-desc"],
+    "#project3-desc": t["project3-desc"],
+    "#project4-desc": t["project4-desc"],
     "#skills-list": t["skills-list"],
     "#awards-list": t["awards-list"],
   };
