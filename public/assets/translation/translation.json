@@ -32,9 +32,9 @@
     ],
     "project3-title": "YOLOv8-based Object Detection System Development",
     "project3-desc": [
-      "Collected and annotated a custom dataset by labelImg, and configured the YOLOv8 environment.",
+      "Collected and annotated a custom dataset of 5,00+ images by labelImg, and configured the YOLOv8 environment.",
       "Trained and tested the YOLOv8 model, applying data augmentation to improve robustness.",
-      "Optimized performance through hyperparameter tuning and classifier fusion to enhance accuracy."
+      "Improved model mean Average Precision (mAP) from 78% to 94% through hyperparameter tuning and classifier fusion."
     ],
     "project4-title": "Unity Game Development",
     "project4-desc": [
@@ -101,9 +101,9 @@
     ],
     "project3-title": "基于YOLOv8的目标检测系统开发",
     "project3-desc": [
-      "使用labelImg收集并标注了自定义数据集，并配置了YOLOv8环境。",
+      "使用labelImg收集并标注了500+张自定义图片数据集，并配置了YOLOv8环境。",
       "训练和测试了YOLOv8模型，并应用数据增强以提高鲁棒性。",
-      "通过超参数调整和分类器融合优化性能，以提高准确性。"
+      "通过超参数调整和分类器融合，将模型mAP从78%提升到94%。"
     ],
     "project4-title": "Unity游戏开发",
     "project4-desc": [
@@ -170,9 +170,9 @@
     ],
     "project3-title": "YOLOv8に基づく物体検出システムの開発",
     "project3-desc": [
-      "labelImgを使用してカスタムデータセットを収集・注釈付けし、YOLOv8環境を構成しました。",
-      "YOLOv8モデルをトレーニングおよびテストし、堅牢性を向上させるためにデータ拡張を適用しました。",
-      "ハイパーパラメータの調整と分類器の融合によりパフォーマンスを最適化し、精度を向上させました。"
+      "labelImgで5,00枚以上のカスタム画像データセットを収集・アノテーションし、YOLOv8環境を構築しました。",
+      "YOLOv8モデルをトレーニング・テストし、データ拡張でロバスト性を向上。",
+      "ハイパーパラメータ調整と分類器融合によりモデルmAPを78％から94％に改善しました。"
     ],
     "project4-title": "Unityゲーム開発",
     "project4-desc": [
