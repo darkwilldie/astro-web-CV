@@ -42,23 +42,29 @@
       "Developed 2D & 3D games, covering scene construction, physics simulation, and UI design.",
       "Applied skills to Create demo games to showcase abilities, available at: <a href=\"https://play.unity.com/en/games/4bdf643c-5ecf-404d-8e36-7bbc021cc40d/penguin-jump\">Demo1</a> and <a href=\"https://play.unity.com/en/games/d7827b9c-5e95-4e3e-adb4-2c2a01e081df/essential-pathway\">Demo2</a>."
     ],
-    "project5-title": "Full-Stack Big Data Analytics Platform with Apache Spark",
+    "project5-title": "Big Data Analytics Tasks with Apache Spark",
     "project5-desc": [
-      "Engineered end-to-end data pipelines using PySpark and Scala to perform large-scale batch analysis (Spark SQL) and real-time processing (Spark Streaming).",
-      "Applied advanced analytics using GraphFrames for network modeling and built a complete machine learning workflow with Spark MLlib for spam classification.",
-      "Managed the full data lifecycle, from ETL and cleansing over 12 GB of massive e-commerce logs to complex business intelligence queries and predictive model evaluation."
+      "Built data pipelines with PySpark/Scala for large-scale batch (SQL) and real-time (Streaming) analysis.",
+      "Used GraphFrames for network modeling and built a spam classification workflow with Spark MLlib.",
+      "Managed the full data lifecycle for 12GB+ e-commerce logs, from ETL to BI queries and model evaluation."
     ],
-    "project6-title": "<a href=\"https://github.com/darkwilldie/FirstCrawler\">58Tongcheng Job-Posting Web Crawler</a>",
+    "project6-title": "58Tongcheng Job-Posting Web Crawler",
     "project6-desc": [
-      "Developed a Java-based web crawler using Selenium WebDriver to automate the extraction of job-posting information from the 58.com recruitment portal.",
-      "Engineered a user-friendly Java Swing GUI for application control and implemented a multi-storage solution, saving scraped data to both CSV files and a MySQL database.",
-      "Integrated comprehensive user management features, including registration and login, with an admin-level interface for direct database querying and management."
+      "Developed a Java and Selenium crawler to automatically extract job postings from 58.com.",
+      "Engineered a Java Swing GUI and implemented dual storage of scraped data to CSV and MySQL.",
+      "Integrated user management with an admin-level interface for direct database querying."
     ],
-    "project7-title": "<a href=\"https://github.com/darkwilldie/blog-app\">Full-Stack Blog Application</a>",
+    "project7-title": "JavaScript Full-Stack Blog Application",
     "project7-desc": [
       "Developed a full-stack blog application using React, Node.js, Express, and PostgreSQL.",
       "Implemented a complete RESTful API for CRUD (Create, Read, Update, Delete) operations on posts.",
       "Engineered a responsive, user-friendly frontend with Bootstrap and included a dark mode feature."
+    ],
+    "project8-title": "MIPS 32 Pipelined CPU Design & Implementation",
+    "project8-desc": [
+      "Designed and built a 5-stage pipelined MIPS 32 processor from scratch in Logisim.",
+      "Engineered the datapath and control unit to support an expanded 24-instruction set.",
+      "Progressed the implementation from a single-cycle to an efficient pipelined model."
     ],
     "skills-h2": "Skills",
     "skills-list": [
@@ -129,23 +135,29 @@
       "开发了2D和3D游戏，涵盖了场景构建、物理模拟和UI设计。",
       "应用技能创建了演示游戏以展示能力，可在以下地址查看：<a href=\"https://play.unity.com/en/games/4bdf643c-5ecf-404d-8e36-7bbc021cc40d/penguin-jump\">Demo1</a> 和 <a href=\"https://play.unity.com/en/games/d7827b9c-5e95-4e3e-adb4-2c2a01e081df/essential-pathway\">Demo2</a>."
     ],
-    "project5-title": "Apache Spark大数据分析平台（全栈）",
+    "project5-title": "Apache Spark大数据分析",
     "project5-desc": [
-      "使用PySpark和Scala构建端到端数据管道，实现大规模批处理分析（Spark SQL）和实时处理（Spark Streaming）。",
-      "利用GraphFrames进行网络建模分析，并用Spark MLlib构建完整的垃圾信息分类机器学习流程。",
-      "管理全流程数据生命周期，从ETL和清洗12GB电商日志到复杂商业智能查询与预测模型评估。"
+      "使用PySpark和Scala构建数据管道，实现大规模批处理（SQL）和实时（Streaming）分析。",
+      "利用GraphFrames进行网络建模，并用Spark MLlib构建垃圾分类工作流。",
+      "管理12GB+电商日志的全流程数据生命周期，从ETL到BI查询和模型评估。"
     ],
-    "project6-title": "<a href=\"https://github.com/darkwilldie/FirstCrawler\">58同城招聘信息爬虫</a>",
+    "project6-title": "58同城招聘信息爬虫",
     "project6-desc": [
-      "使用Java和Selenium WebDriver开发爬虫，自动抓取58同城招聘信息。",
-      "设计易用的Java Swing图形界面，实现多存储方案，数据可保存为CSV文件和MySQL数据库。",
-      "集成完整的用户管理功能，包括注册、登录，并提供管理员数据库查询和管理界面。"
+      "开发Java和Selenium爬虫，自动抓取58同城招聘信息。",
+      "设计Java Swing界面，实现数据双存储到CSV和MySQL。",
+      "集成用户管理，管理员可直接查询数据库。"
     ],
-    "project7-title": "<a href=\"https://github.com/darkwilldie/blog-app\">全栈博客应用</a>",
+    "project7-title": "JavaScript全栈博客应用",
     "project7-desc": [
       "使用React、Node.js、Express和PostgreSQL开发全栈博客应用。",
       "实现完整的RESTful API，支持文章的增删改查（CRUD）操作。",
       "前端采用Bootstrap响应式设计，支持暗黑模式，提升用户体验。"
+    ],
+    "project8-title": "MIPS 32流水线CPU设计与实现",
+    "project8-desc": [
+      "使用Logisim从零设计并搭建了5级流水线的MIPS 32处理器。",
+      "设计了数据通路和控制单元，支持扩展的24条指令集。",
+      "实现从单周期到高效流水线模型的逐步优化。"
     ],
     "skills-h2": "技能",
     "skills-list": [
@@ -216,23 +228,29 @@
       "シーン構築、物理シミュレーション、UIデザインをカバーする2Dおよび3Dゲームを開発しました。",
       "スキルを応用して、能力を示すためのデモゲームを作成しました。デモは<a href=\"https://play.unity.com/en/games/4bdf643c-5ecf-404d-8e36-7bbc021cc40d/penguin-jump\">Demo1</a> および <a href=\"https://play.unity.com/en/games/d7827b9c-5e95-4e3e-adb4-2c2a01e081df/essential-pathway\">Demo2</a>でご覧いただけます。"
     ],
-    "project5-title": "Apache Sparkによるフルスタック大規模データ分析プラットフォーム",
+    "project5-title": "Apache Sparkによる大規模データ分析",
     "project5-desc": [
-      "PySparkとScalaでエンドツーエンドのデータパイプラインを構築し、Spark SQLによる大規模バッチ分析とSpark Streamingによるリアルタイム処理を実現。",
-      "GraphFramesでネットワークモデリングを行い、Spark MLlibでスパム分類の機械学習ワークフローを構築。",
-      "ETLと12GB超のECログのクレンジングから、BIクエリや予測モデル評価までデータライフサイクル全体を管理。"
+      "PySparkとScalaでデータパイプラインを構築し、バッチ（SQL）とリアルタイム（Streaming）分析を実現。",
+      "GraphFramesでネットワークモデリングし、Spark MLlibでスパム分類ワークフローを構築。",
+      "ETLからBIクエリ・モデル評価まで、12GB超ECログのデータライフサイクルを管理。"
     ],
-    "project6-title": "<a href=\"https://github.com/darkwilldie/FirstCrawler\">58同城求人情報Webクローラー</a>",
+    "project6-title": "58同城求人情報Webクローラー",
     "project6-desc": [
-      "JavaとSelenium WebDriverで58.com求人ポータルから情報を自動抽出するWebクローラーを開発。",
-      "Java Swingによる使いやすいGUIを設計し、CSVファイルとMySQLデータベースへのマルチストレージ保存を実装。",
-      "登録・ログインなどのユーザー管理機能と、管理者向けのDB直接操作インターフェースを統合。"
+      "JavaとSeleniumで58.com求人情報を自動抽出するクローラーを開発。",
+      "Java Swing GUIを設計し、CSVとMySQLへのデータ二重保存を実装。",
+      "ユーザー管理を統合し、管理者はDBを直接操作可能。"
     ],
-    "project7-title": "<a href=\"https://github.com/darkwilldie/blog-app\">フルスタックブログアプリケーション</a>",
+    "project7-title": "JavaScriptフルスタックブログアプリケーション",
     "project7-desc": [
       "React、Node.js、Express、PostgreSQLでフルスタックブログアプリを開発。",
       "記事のCRUD操作を可能にするRESTful APIを実装。",
       "Bootstrapによるレスポンシブなフロントエンドとダークモード機能を搭載。"
+    ],
+    "project8-title": "MIPS 32パイプラインCPU設計と実装",
+    "project8-desc": [
+      "Logisimで5段階パイプラインのMIPS 32プロセッサをゼロから設計・構築しました。",
+      "拡張された24命令セットに対応するデータパスと制御ユニットを設計。",
+      "単一サイクルから効率的なパイプラインモデルへの実装を進めました。"
     ],
     "skills-h2": "スキル",
     "skills-list": [
