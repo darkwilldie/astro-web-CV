@@ -52,6 +52,9 @@ function setLang(lang) {
   $("#project2-date").text(t["project2-date"]);
   $("#project3-title").text(t["project3-title"]);
   $("#project4-title").text(t["project4-title"]);
+  $("#project5-title").text(t["project5-title"]);
+  $("#project6-title").text(t["project6-title"]);
+  $("#project7-title").text(t["project7-title"]);
   $("#skills-h2").text(t["skills-h2"]);
   $("#awards-h2").text(t["awards-h2"]);
   // $("#about-me-h2").text(t["about-me-h2"]);
@@ -66,6 +69,9 @@ function setLang(lang) {
     "#project2-desc": t["project2-desc"],
     "#project3-desc": t["project3-desc"],
     "#project4-desc": t["project4-desc"],
+    "#project5-desc": t["project5-desc"],
+    "#project6-desc": t["project6-desc"],
+    "#project7-desc": t["project7-desc"],
     "#skills-list": t["skills-list"],
     "#awards-list": t["awards-list"],
   };
