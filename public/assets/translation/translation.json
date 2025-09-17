@@ -45,8 +45,8 @@
     "skills-h2": "Skills",
     "skills-list": [
       "🌍 Chinese (Native️), 🌍 Japanese, 🌍 English",
-      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
-      "🛠️ Deep learning, 🛠️ Web Development, 🛠️ Database Management, 🛠️ Distributed Computing, 🛠️ Data Analysis"
+      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++, 👾 Java",
+      "🛠️ Deep learning, 🛠️ Web Development, 🛠️ Unity Development, 🛠️ Database Management, 🛠️ Distributed Computing, 🛠️ Data Analysis"
     ],
     "awards-h2": "Pub, Awards and Certifications",
     "awards-list": [
@@ -59,7 +59,7 @@
       "🏆 Team Third Prize in Programming Ladder Competition <span class=\"date\">2023.11</span>",
       "🎓 First-class Scholarship (1%) <span class=\"date\">2023.10</span>",
       "🏆 Second Prize in University Student Algorithm Competition <span class=\"date\">2023.09</span>",
-      "🏆 Bronze Award in Hubei Provincial CCPC <span class=\"date\">2023.05</span>"
+      "🏆 Bronze Award in China Collegiate Programming Contest (CCPC) <span class=\"date\">2023.05</span>"
     ],
     "about-me-h2": "About Me",
     "hobbies-h2": "My Hobbies",
@@ -114,8 +114,8 @@
     "skills-h2": "技能",
     "skills-list": [
       "🌍 中文 (母语), 🌍 日语, 🌍 英语",
-      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
-      "🛠️ 深度学习, 🛠️ Web开发, 🛠️ 数据库管理, 🛠️ 分布式计算, 🛠️ 数据分析"
+      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++, 👾 Java",
+      "🛠️ 深度学习, 🛠️ Web开发, 🛠️ Unity开发, 🛠️ 数据库管理, 🛠️ 分布式计算, 🛠️ 数据分析"
     ],
     "awards-h2": "发表、奖项与证书",
     "awards-list": [
@@ -128,7 +128,7 @@
       "🏆 团体程序设计天梯赛三等奖 <span class=\"date\">2023.11</span>",
       "🎓 一等奖学金 (1%) <span class=\"date\">2023.10</span>",
       "🏆 大学生算法竞赛二等奖 <span class=\"date\">2023.09</span>",
-      "🏆 湖北省CCPC铜奖 <span class=\"date\">2023.05</span>"
+      "🏆 湖北省中国大学生程序设计竞赛（CCPC）铜奖 <span class=\"date\">2023.05</span>"
     ],
     "about-me-h2": "关于我",
     "hobbies-h2": "爱好",
@@ -183,8 +183,8 @@
     "skills-h2": "スキル",
     "skills-list": [
       "🌍 中国語 (ネイティブ)、🌍 日本語、🌍 英語",
-      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++",
-      "🛠️ ディープラーニング、🛠️ ウェブ開発、🛠️ データベース管理、🛠️ 分散コンピューティング、🛠️ データ分析"
+      "👾 Python, 👾 Unity (C#), 👾 JavaScript, 👾 HTML/CSS, 👾 SQL, 👾 C/C++, 👾 Java",
+      "🛠️ ディープラーニング、🛠️ ウェブ開発、🛠️ Unity開発、🛠️ データベース管理、🛠️ 分散コンピューティング、🛠️ データ分析"
     ],
     "awards-h2": "受賞・資格等",
     "awards-list": [
@@ -197,7 +197,7 @@
       "🏆 プログラミングラダーコンペティション団体三等賞 <span class=\"date\">2023.11</span>",
       "🎓 一等奨学金 (1%) <span class=\"date\">2023.10</span>",
       "🏆 大学生アルゴリズムコンペティション二等賞 <span class=\"date\">2023.09</span>",
-      "🏆 湖北省CCPC銅賞 <span class=\"date\">2023.05</span>"
+      "🏆 湖北省中国大学生プログラミングコンテスト（CCPC）銅賞 <span class=\"date\">2023.05</span>"
     ],
     "about-me-h2": "私について",
     "hobbies-h2": "趣味",
