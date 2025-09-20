@@ -69,7 +69,7 @@ img.proj-img {
 }
 
 #name.dark {
-  color: #d8c9ba;
+  color: #ebdfd4;
 }
 
 #edu {
@@ -229,11 +229,29 @@ h2.dark {
   justify-content: space-between;
   align-items: center;
 }
-#footer {
-  margin-top: auto;
-}
 .date {
   margin-left: 1rem;
   color: #888;
   font-size: 0.95em;
+}
+.date.dark {
+  color: #d1d1d1;
+}
+
+.card-body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-family: "Comic Sans MS", cursive;
+  font-size: 1.2rem;
+  /* font-weight: bold; */
+  color: #555555;
+}
+.card-body.dark {
+  color: #d1d1d1;
+}
+
+#footer {
+  margin-top: auto;
 }
