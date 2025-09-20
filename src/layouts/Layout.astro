@@ -1,4 +1,6 @@
 ---
+import Analytics from '@vercel/analytics/astro';
+import SpeedInsights from '@vercel/speed-insights/astro';
 const { showHeader = true, showFooter = true } = Astro.props;
 ---
 <!DOCTYPE html>
@@ -17,6 +19,7 @@ const { showHeader = true, showFooter = true } = Astro.props;
         href="https://fonts.googleapis.com/css2?family=Bad+Script&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playpen+Sans+Hebrew:wght@100..800&family=Satisfy&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="/style.css">
+    <Analytics />
 </head>
 
 <body>
@@ -72,6 +75,7 @@ const { showHeader = true, showFooter = true } = Astro.props;
         integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
         crossorigin="anonymous"></script>
     <script is:inline src="/index.js" charset="UTF-8"></script>
+    <SpeedInsights />
 </body>
 
 </html>
