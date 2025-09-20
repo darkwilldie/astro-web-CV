@@ -16,7 +16,7 @@ let translations = {};
 // Fetch translations
 async function fetchTranslations() {
   try {
-    const response = await fetch("../assets/translation/translation.json");
+    const response = await fetch("/assets/translation/translation.json");
     translations = await response.json();
     setLang("en"); // Set default language
   } catch (error) {
