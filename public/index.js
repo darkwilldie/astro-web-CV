@@ -1,17 +1,56 @@
-const $navbar = $(".navbar");
-const $btn = $("#toggle-dark");
-
-$btn.on("click", function () {
-  const $body = $("body");
-  const isDark = $body.attr("data-bs-theme") === "dark";
-  const $hasDarks = $(".has-dark, section, .date, .card-body");
-  $hasDarks.toggleClass("dark");
-  $navbar.toggleClass("navbar-dark bg-dark navbar-light bg-light");
-  $btn.text(isDark ? "⏾" : "☀");
-  $body.attr("data-bs-theme", isDark ? "light" : "dark");
-});
+const navbar = document.querySelector(".navbar");
+const toggleDarkButton = document.querySelector("#toggle-dark");
 
 let translations = {};
+
+function setText(selector, value) {
+  const element = document.querySelector(selector);
+  if (element && typeof value === "string") {
+    element.textContent = value;
+  }
+}
+
+function setHTML(selector, value) {
+  const element = document.querySelector(selector);
+  if (element && typeof value === "string") {
+    element.innerHTML = value;
+  }
+}
+
+function setList(selector, items) {
+  const list = document.querySelector(selector);
+  if (!list || !Array.isArray(items)) return;
+
+  list.innerHTML = "";
+  items.forEach((item) => {
+    const li = document.createElement("li");
+    li.innerHTML = item;
+    list.appendChild(li);
+  });
+}
+
+function bindDarkModeToggle() {
+  if (!toggleDarkButton) return;
+
+  toggleDarkButton.addEventListener("click", () => {
+    const body = document.body;
+    const isDark = body.getAttribute("data-bs-theme") === "dark";
+    const hasDarkElements = document.querySelectorAll(
+      ".has-dark, section, .date, .card-body"
+    );
+
+    hasDarkElements.forEach((element) => element.classList.toggle("dark"));
+
+    if (navbar) {
+      ["navbar-dark", "bg-dark", "navbar-light", "bg-light"].forEach((className) =>
+        navbar.classList.toggle(className)
+      );
+    }
+
+    toggleDarkButton.textContent = isDark ? "⏾" : "☀";
+    body.setAttribute("data-bs-theme", isDark ? "light" : "dark");
+  });
+}
 
 // Fetch translations
 async function fetchTranslations() {
@@ -31,38 +70,38 @@ function setLang(lang) {
   const t = translations[lang];
 
   // Update text content
-  $("#title").text(t.title);
-  // $("#name-logo").text(t["name-logo"]);
-  $("#nav-intro").text(t["nav-intro"]);
-  $("#nav-edu").text(t["nav-edu"]);
-  $("#nav-projects").text(t["nav-projects"]);
-  $("#nav-skills").text(t["nav-skills"]);
-  $("#nav-contact").text(t["nav-contact"]);
-  // $("#name").text(t.name);
-  // $("#occup").text(t.occup);
-  // $("#summary-title").text(t["summary-title"]);
-  $("#summary-content").html(t["summary-content"]);
-  $("#edu-h2").text(t["edu-h2"]);
-  $("#edu-p").html(t["edu-p"]);
-  $("#edu-year").text(t["edu-year"]);
-  $("#project-exp-h2").text(t["project-exp-h2"]);
-  $("#project1-title").text(t["project1-title"]);
-  $("#project1-date").text(t["project1-date"]);
-  $("#project2-title").text(t["project2-title"]);
-  $("#project2-date").text(t["project2-date"]);
-  $("#project3-title").text(t["project3-title"]);
-  $("#project4-title").text(t["project4-title"]);
-  $("#project5-title").text(t["project5-title"]);
-  $("#project6-title").text(t["project6-title"]);
-  $("#project7-title").text(t["project7-title"]);
-  $("#project8-title").text(t["project8-title"]);
-  $("#skills-h2").text(t["skills-h2"]);
-  $("#awards-h2").text(t["awards-h2"]);
-  // $("#about-me-h2").text(t["about-me-h2"]);
-  $("#hobbies-h2").text(t["hobbies-h2"]);
-  // $("#hello").text(t.hello);
-  // $("#contact").text(t.contact);
-  // $("#footer-text").text(t["footer-text"]);
+  setText("#title", t.title);
+  // setText("#name-logo", t["name-logo"]);
+  setText("#nav-intro", t["nav-intro"]);
+  setText("#nav-edu", t["nav-edu"]);
+  setText("#nav-projects", t["nav-projects"]);
+  setText("#nav-skills", t["nav-skills"]);
+  setText("#nav-contact", t["nav-contact"]);
+  // setText("#name", t.name);
+  // setText("#occup", t.occup);
+  // setText("#summary-title", t["summary-title"]);
+  setHTML("#summary-content", t["summary-content"]);
+  setHTML("#edu-p", t["edu-p"]);
+  setText("#edu-h2", t["edu-h2"]);
+  setText("#edu-year", t["edu-year"]);
+  setText("#project-exp-h2", t["project-exp-h2"]);
+  setText("#project1-title", t["project1-title"]);
+  setText("#project1-date", t["project1-date"]);
+  setText("#project2-title", t["project2-title"]);
+  setText("#project2-date", t["project2-date"]);
+  setText("#project3-title", t["project3-title"]);
+  setText("#project4-title", t["project4-title"]);
+  setText("#project5-title", t["project5-title"]);
+  setText("#project6-title", t["project6-title"]);
+  setText("#project7-title", t["project7-title"]);
+  setText("#project8-title", t["project8-title"]);
+  setText("#skills-h2", t["skills-h2"]);
+  setText("#awards-h2", t["awards-h2"]);
+  // setText("#about-me-h2", t["about-me-h2"]);
+  setText("#hobbies-h2", t["hobbies-h2"]);
+  // setText("#hello", t.hello);
+  // setText("#contact", t.contact);
+  // setText("#footer-text", t["footer-text"]);
 
   // Update lists
   const lists = {
@@ -78,45 +117,54 @@ function setLang(lang) {
     "#awards-list": t["awards-list"],
   };
 
-  for (const [id, items] of Object.entries(lists)) {
-    const $list = $(id);
-    $list.empty();
-    items.forEach((item) => {
-      $list.append(`<li>${item}</li>`);
-    });
-  }
+  Object.entries(lists).forEach(([id, items]) => setList(id, items));
 
   // Update hobbies
-  const $hobbies = $("#my-hobbies");
-  $hobbies.empty();
-  t.hobbies.forEach((hobby) => {
-    $hobbies.append(
-      `<div class="card col-12 col-sm-5 col-lg-2"><div class="card-body">${hobby}</div></div>`
-    );
+  const hobbies = document.querySelector("#my-hobbies");
+  if (hobbies && Array.isArray(t.hobbies)) {
+    hobbies.innerHTML = "";
+    t.hobbies.forEach((hobby) => {
+      const card = document.createElement("div");
+      card.className = "card col-12 col-sm-5 col-lg-2";
+
+      const cardBody = document.createElement("div");
+      cardBody.className = "card-body";
+      cardBody.textContent = hobby;
+
+      card.appendChild(cardBody);
+      hobbies.appendChild(card);
+    });
+  }
+}
+
+function bindImageModal() {
+  // 图片点击放大
+  document.querySelectorAll(".proj-img").forEach((image) => {
+    image.addEventListener("click", () => {
+      const modal = image.closest(".imgModal");
+      if (!modal) return;
+
+      modal.style.display = "flex";
+      modal.classList.add("clicked");
+      console.log("magnify!");
+    });
+  });
+
+  // 点击弹窗遮罩关闭（点击图片本身不关闭）
+  document.querySelectorAll(".imgModal").forEach((modal) => {
+    modal.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.classList.remove("clicked");
+      }
+    });
   });
 }
 
-// Initial load
-$(document).ready(function () {
+function init() {
+  bindDarkModeToggle();
+  bindImageModal();
   fetchTranslations();
-});
+}
 
-// function showLarge(src) {
-// document.getElementById("proj-img").src = src;
-// document.getElementById("imgModal").style.display = "flex";
-// }
-// 图片点击放大
-$(".proj-img").on("click", function () {
-  // 找到当前图片的最近的 .imgModal 父元素
-  $(this).closest(".imgModal").css("display", "flex");
-  $(this).closest(".imgModal").addClass("clicked");
-  console.log("magnify!");
-});
-
-// 点击弹窗遮罩关闭
-$(".imgModal").on("click", function (e) {
-  // 只在点击遮罩时关闭，点击图片本身不关闭
-  if (e.target === this) {
-    $(this).removeClass("clicked");
-  }
-});
+document.addEventListener("DOMContentLoaded", init);
+window.setLang = setLang;
