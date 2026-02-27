@@ -1,43 +1,83 @@
-# Astro Starter Kit: Minimal
+# My Resume Astro
 
-```sh
-npm create astro@latest -- --template minimal
-```
+基于 Astro 构建的个人简历网站，包含项目经历、技能与奖项、多语言切换、深色模式和联系方式页面。
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 项目内容
 
-## 🚀 Project Structure
+- 首页（`/`）
+  - 个人简介（Summary）
+  - 教育背景
+  - 项目经历（含项目截图）
+  - 技能与奖项
+  - 兴趣爱好与联系方式入口
+- 联系页（`/contact`）
+  - 电话和邮箱信息
+- 交互能力
+  - 三语言切换（EN / CN / JP）
+  - 深色模式切换
+  - 项目图片点击放大
 
-Inside of your Astro project, you'll see the following folders and files:
+## 技术栈
+
+- `Astro 5`
+- `Bootstrap 5`
+- `@fontsource`（本地字体）
+- `astro:assets` + `sharp`（图片优化）
+- `@vercel/analytics`、`@vercel/speed-insights`
+
+## 已做性能优化
+
+- 去除 `jQuery` 依赖，改为原生 DOM 实现交互逻辑（减少第三方 JS 依赖）。
+- 移除未使用的 `bootstrap-icons` 外链。
+- 将 Bootstrap CSS/JS 与字体从外部 CDN 改为本地依赖打包：
+  - 不再依赖 `jsdelivr` / `fonts.googleapis` / `fonts.gstatic` / `ajax.googleapis`。
+- 字体按实际使用收敛到必要权重（减少字体传输量）。
+- 仅在需要头部导航的页面加载 `bootstrap.js` 与 `index.js`（避免联系页加载无用脚本）。
+- 页面图片通过 `astro:assets` 构建为优化资源（如 WebP），并带懒加载属性。
+
+## 目录说明
 
 ```text
-/
+.
 ├── public/
+│   ├── assets/translation/translation.json
+│   ├── index.js
+│   └── style.css
 ├── src/
-│   └── pages/
-│       └── index.astro
+│   ├── assets/images/
+│   ├── layouts/Layout.astro
+│   ├── pages/index.astro
+│   ├── pages/contact.astro
+│   ├── scripts/bootstrap.js
+│   └── styles/vendor.css
 └── package.json
 ```
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+## 本地运行
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+```bash
+npm install
+npm run dev
+```
 
-Any static assets, like images, can be placed in the `public/` directory.
+常用命令：
 
-## 🧞 Commands
+- `npm run dev`：启动开发服务器
+- `npm run build`：构建到 `dist/`
+- `npm run preview`：本地预览构建产物
 
-All commands are run from the root of the project, from a terminal:
+## 部署（简要）
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+### 方案一：Vercel（推荐）
 
-## 👀 Want to learn more?
+1. 将仓库推送到 GitHub / GitLab / Bitbucket。
+2. 在 Vercel 导入项目。
+3. 构建配置使用：
+   - Build Command: `npm run build`
+   - Output Directory: `dist`
+4. 点击 Deploy 完成发布。
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+### 方案二：任意静态托管
+
+1. 本地执行 `npm run build`。
+2. 将 `dist/` 目录上传到静态托管平台（如 Netlify、Cloudflare Pages、GitHub Pages 等）。
