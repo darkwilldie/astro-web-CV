@@ -56,15 +56,15 @@
 ## 本地运行
 
 ```bash
-npm install
-npm run dev
+pnpm install
+pnpm run dev
 ```
 
 常用命令：
 
-- `npm run dev`：启动开发服务器
-- `npm run build`：构建到 `dist/`
-- `npm run preview`：本地预览构建产物
+- `pnpm run dev`：启动开发服务器
+- `pnpm run build`：构建到 `dist/`
+- `pnpm run preview`：本地预览构建产物
 
 ## 部署（简要）
 
@@ -73,11 +73,11 @@ npm run dev
 1. 将仓库推送到 GitHub / GitLab / Bitbucket。
 2. 在 Vercel 导入项目。
 3. 构建配置使用：
-   - Build Command: `npm run build`
+   - Build Command: `pnpm run build`
    - Output Directory: `dist`
 4. 点击 Deploy 完成发布。
 
 ### 方案二：任意静态托管
 
-1. 本地执行 `npm run build`。
+1. 本地执行 `pnpm run build`。
 2. 将 `dist/` 目录上传到静态托管平台（如 Netlify、Cloudflare Pages、GitHub Pages 等）。

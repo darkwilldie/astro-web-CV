@@ -8,6 +8,18 @@ importers:
 
   .:
     dependencies:
+      '@fontsource/bad-script':
+        specifier: ^5.2.8
+        version: 5.2.8
+      '@fontsource/lato':
+        specifier: ^5.2.7
+        version: 5.2.7
+      '@fontsource/playpen-sans-hebrew':
+        specifier: ^5.2.4
+        version: 5.2.4
+      '@fontsource/satisfy':
+        specifier: ^5.2.7
+        version: 5.2.7
       '@vercel/analytics':
         specifier: ^1.5.0
         version: 1.5.0
@@ -17,6 +29,9 @@ importers:
       astro:
         specifier: ^5.13.7
         version: 5.13.9(@types/node@24.5.2)(rollup@4.52.0)(typescript@5.9.2)
+      bootstrap:
+        specifier: ^5.3.7
+        version: 5.3.8(@popperjs/core@2.11.8)
       sharp:
         specifier: ^0.34.5
         version: 0.34.5
@@ -219,6 +234,18 @@ packages:
     cpu: [x64]
     os: [win32]
 
+  '@fontsource/bad-script@5.2.8':
+    resolution: {integrity: sha512-yUNQzQs6gsaqbtf575M4eucrM24FWAdWorRaF29vWjCuerjJVlwR02L5fRbwfGuBe/yekkAIUDCmobUgqv9sYQ==}
+
+  '@fontsource/lato@5.2.7':
+    resolution: {integrity: sha512-k5mum1ADbDW5cTw1Ett1eQVWeoZ6gq0ct6SFBibEhB4LRxhniChJZTBgd6ph5yBxLkN1fcnsnmicBNA4S/3nbw==}
+
+  '@fontsource/playpen-sans-hebrew@5.2.4':
+    resolution: {integrity: sha512-/gRoQmeDPIy7wytzT18ibeTJRPbAqO5qWpFcgB0c90JYN8D/nNtO7PthvFJW60CKp+PhSZ6h5+Eb7FkO9IrcwQ==}
+
+  '@fontsource/satisfy@5.2.7':
+    resolution: {integrity: sha512-nCryyRwgppe04BV6WcaaL9x52AsF3VrJ06rBW6wOz+7xqwqJRaw6fy69bW86kmL/NanEfraFDciMm9IDUGoqEg==}
+
   '@img/colour@1.0.0':
     resolution: {integrity: sha512-A5P/LfWGFSl6nsckYtjw9da+19jB8hkJ6ACTGcDfEJ0aE+l2n2El7dsVM7UVHZQ9s2lmYMWlrS21YLy2IR1LUw==}
     engines: {node: '>=18'}
@@ -377,6 +404,9 @@ packages:
 
   '@oslojs/encoding@1.1.0':
     resolution: {integrity: sha512-70wQhgYmndg4GCPxPPxPGevRKqTIJ2Nh4OkiMWmDAVYsTQ+Ta7Sq+rPevXyXGdzr30/qZBnyOalCszoMxlyldQ==}
+
+  '@popperjs/core@2.11.8':
+    resolution: {integrity: sha512-P1st0aksCrn9sGZhp8GMYwBnQsbvAWsZAX44oXNNvLHGqAOcoVxmjZiohstwQ7SqKnbR47akdNi+uleWD8+g6A==}
 
   '@rollup/pluginutils@5.3.0':
     resolution: {integrity: sha512-5EdhGZtnu3V88ces7s53hhfK5KSASnJZv8Lulpc04cWO3REESroJXg73DFsOmgbU2BhwV0E20bu2IDZb3VKW4Q==}
@@ -665,6 +695,11 @@ packages:
 
   blob-to-buffer@1.2.9:
     resolution: {integrity: sha512-BF033y5fN6OCofD3vgHmNtwZWRcq9NLyyxyILx9hfMy1sXYy4ojFl765hJ2lP0YaN2fuxPaLO2Vzzoxy0FLFFA==}
+
+  bootstrap@5.3.8:
+    resolution: {integrity: sha512-HP1SZDqaLDPwsNiqRqi5NcP0SSXciX2s9E+RyqJIIqGo+vJeN5AJVM98CXmW/Wux0nQ5L7jeWUdplCEf0Ee+tg==}
+    peerDependencies:
+      '@popperjs/core': ^2.11.8
 
   boxen@8.0.1:
     resolution: {integrity: sha512-F3PH5k5juxom4xktynS7MoFY+NUWH5LC4CnH11YB8NPew+HLpmBLCybSAEyb2F+4pRXhuhWqFesoQd6DAyc2hw==}
@@ -1719,6 +1754,14 @@ snapshots:
   '@esbuild/win32-x64@0.25.10':
     optional: true
 
+  '@fontsource/bad-script@5.2.8': {}
+
+  '@fontsource/lato@5.2.7': {}
+
+  '@fontsource/playpen-sans-hebrew@5.2.4': {}
+
+  '@fontsource/satisfy@5.2.7': {}
+
   '@img/colour@1.0.0': {}
 
   '@img/sharp-darwin-arm64@0.34.5':
@@ -1818,6 +1861,8 @@ snapshots:
   '@jridgewell/sourcemap-codec@1.5.5': {}
 
   '@oslojs/encoding@1.1.0': {}
+
+  '@popperjs/core@2.11.8': {}
 
   '@rollup/pluginutils@5.3.0(rollup@4.52.0)':
     dependencies:
@@ -2100,6 +2145,10 @@ snapshots:
   base64-js@1.5.1: {}
 
   blob-to-buffer@1.2.9: {}
+
+  bootstrap@5.3.8(@popperjs/core@2.11.8):
+    dependencies:
+      '@popperjs/core': 2.11.8
 
   boxen@8.0.1:
     dependencies:
