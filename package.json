@@ -9,9 +9,14 @@
     "astro": "astro"
   },
   "dependencies": {
+    "@fontsource/bad-script": "^5.2.8",
+    "@fontsource/lato": "^5.2.7",
+    "@fontsource/playpen-sans-hebrew": "^5.2.4",
+    "@fontsource/satisfy": "^5.2.7",
     "@vercel/analytics": "^1.5.0",
     "@vercel/speed-insights": "^1.2.0",
     "astro": "^5.13.7",
+    "bootstrap": "^5.3.7",
     "sharp": "^0.34.5"
   }
 }
